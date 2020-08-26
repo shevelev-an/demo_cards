@@ -1,0 +1,26 @@
+.user-info__button_control_place {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  font-size: 30px;  
+  width: 150px;
+  height: 50px;  
+}
+
+.user-info__button_control_profile {
+  font-size: 18px;  
+  width: 50px;
+  height: 25px;
+}
+
+@media screen and (max-width: 980px) {
+  
+  .user-info__button_control_place {
+    position: static;
+    margin-bottom: 40px;
+  }
+  
+  .user-info__button_control_profile {
+    margin: 0 auto 18px;
+  }
+}

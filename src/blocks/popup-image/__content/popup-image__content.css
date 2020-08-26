@@ -1,0 +1,14 @@
+.popup-image__content {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  background-color: #fff;
+  position: relative;
+  box-sizing: border-box;  
+}
+
+@media screen and (max-width: 540px) {
+  .popup-image__content {
+    width: calc(100% - 60px);
+  }
+}
